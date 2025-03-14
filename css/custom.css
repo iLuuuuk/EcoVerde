@@ -1,0 +1,145 @@
+
+
+
+.infoPedido p{
+    font-size: 20px !important;
+    color: black !important;
+    display: inline;
+}
+
+.datoPedido{
+    color: rgb(69, 69, 69);
+}
+
+.titlePedido{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.divPedidos{
+    border-bottom: 2px solid #008037;
+    padding-top: 20px;
+}
+
+.price-box-slider .paginado{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.separador{
+    margin: 0px 10px 0px 10px;
+}
+
+.price-box-slider p{
+    display: inline;
+    font-size: 20px;
+    color: green;
+    font-weight: 700;
+}
+
+.pagAdmin{
+    width: 60% !important;
+}
+
+.price-box-slider .disp{
+    display: inline !important;
+}
+
+.price-box-slider p{
+    display: inline !important;
+}
+
+
+.disponibilidad{
+    margin-top: 5px;
+    font-size: 13px !important;
+}
+.cent{
+    text-align: center;
+    width: 30% !important;
+    margin: auto !important;
+    border-top: solid 3px black;
+
+}
+
+.fa-clipboard-check{
+    font-size: 25px;
+    color: rgb(24, 82, 24);
+}
+
+.fa-truck{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.fa-eye{
+    font-size: 25px;
+    color: rgb(18, 93, 231);
+}
+
+.fa-rectangle-xmark{
+    font-size: 23px;
+    color: rgb(170, 9, 9);
+}
+
+.factu{
+    font-weight: 800 !important;
+}
+
+.linkCarrito{
+    font-size: 20px !important;
+}
+
+.botonImpo{
+    background-color: #008037;
+    color: #fff;
+    font-weight: 800;
+    transition: .3s;
+    cursor:pointer;
+    border: 2px solid #000000;
+    float: right;
+}
+
+.botonImpo:hover{
+    background-color: #fff;
+    color:#008037;
+}
+
+.alerta{
+    column-span: 5;
+}
+
+@media (max-width: 991px) {   
+
+
+    .infoPedido p{
+        
+        display: block;
+    }
+
+
+    .separador{
+        display: none;
+        
+    }
+
+    .cent{
+        width: 100% !important;
+        
+    }
+
+    .alerta{
+        column-span: 1;
+    }
+
+
+    .title-product{
+        font-size: 30px !important;
+        margin: 3px !important;
+        text-align: center;
+        margin-top: 10px !important;
+    }
+
+
+}
+

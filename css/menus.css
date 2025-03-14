@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700');
+body{
+font-family: Dosis, sans-serif;
+}
+
+
+.opciones{
+    width: 100%;
+    height: 100%;
+    background-color:#ffffff ;
+    
+    
+}
+
+h4{
+    font-size: 40px;
+    text-align: center;
+    color: #008037;
+    margin-top: 15px;
+}
+
+.h2{
+    font-size: 50px;
+    text-align: center;
+    color: #008037;
+    margin-top: 15px;
+}
+.opciones-arriba{
+width: 100%;
+height: 50%;
+display:flex;
+    
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.opciones-arriba2{
+    width: 100%;
+    height: 50%;
+    display:flex;
+        
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+.opciones-divs1{
+    box-sizing: border-box;
+    width: 230px;
+    height: 230px;
+    background-color: white;
+    
+    margin:10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: .5s;
+    cursor:pointer;
+ }
+
+ .consulta-divs1{
+    box-sizing: border-box;
+    width: 230px;
+    height: 230px;
+    background-color: white;
+    
+    margin:10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: .5s;
+    cursor:pointer;
+ }
+
+
+ .opciones-abajo{
+width: 100%;
+height: 50%;
+display:flex;
+justify-content: center;
+ }
+
+ .opciones-abajo2{
+    width: 100%;
+    height: 50%;
+    display:flex;
+    justify-content: center;
+     }
+
+
+ 
+ .opciones-divs2{
+    box-sizing: border-box;
+    width: 230px;
+    height: 230px;
+    background-color: white;
+    margin:10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: .5s;
+    cursor:pointer;
+ }
+
+ .consulta-divs2{
+    box-sizing: border-box;
+    width: 230px;
+    height: 230px;
+    background-color: white;
+    margin:10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: .5s;
+    cursor:pointer;
+ }
+
+
+.fa-solid.fa-user-gear{
+    width: 100%;
+    
+    font-size: 80px;
+    color: #008037;
+    text-align: center;
+    
+}
+
+.fa-solid.fa-people-group{
+    width: 100%;
+    
+    font-size: 80px;
+    color: #008037;
+    text-align: center;
+    
+}
+
+.fa-solid.fa-box{
+    width: 100%;
+    font-size: 80px;
+    color: #008037;
+    text-align: center;
+    
+}
+
+.fa-solid.fa-filter{
+    width: 100%;
+    font-size: 80px;
+    color: #008037;
+    text-align: center;
+    
+}
+
+
+.fa-solid.fa-boxes-packing, .fa-solid.fa-clipboard-list, .fa-solid.fa-image{
+    
+        width: 100%;
+        
+        font-size: 80px;
+        color: #008037;
+        text-align: center;
+        
+    
+}
+
+
+
+
+.titulos{
+    text-align: center;
+    color:#008037;
+    font-size: 30px;
+    font-weight: 600;
+}
+.tituloss{
+    text-align: center;
+    color: white;
+    background:#008037;
+    border: solid 5px #008037;
+    font-size: 20px;
+    font-weight: 600;
+    width: 238px;
+    height: 238px;
+    padding-top: 17%;
+    border-radius: 10px;
+    transition: background-color .5s;
+}
+
+
+.opciones-divs1:hover{
+    background-color: #e2f39d ;
+    width: 240px;
+    height: 240px;
+}
+
+
+.opciones-divs2:hover{
+    background-color: #e2f39d ;
+    width: 240px;
+    height: 240px;
+}
+
+.tituloss:hover{
+    width: 240px;
+    height: 240px;
+    background: #c9e265;
+    border: solid 5px #c9e265;
+}
+
+
+
+
+
+
+@media (max-width: 880px) {
+
+
+    .opciones{
+        height: 100%;
+    }
+    .opciones-arriba{
+        flex-wrap: wrap;
+        margin-top: 156px;
+    }
+
+    .opciones-abajo{
+        flex-wrap: wrap;
+         }
+
+
+
+}
+@media (max-width: 1500px) {
+
+
+    .opciones2{
+        height: 100%;
+        margin-top: 10px;
+    }
+    .opciones-arriba2{
+        flex-wrap: wrap;
+        margin-top: 156px;
+    }
+
+    .opciones-abajo2{
+        flex-wrap: wrap;
+         }
+
+
+
+}
+
+
+
+
+/*  ------------------------vistaProductos----------------------------  */
+
+.cuerpo{
+    width: 100%;
+    height: calc(100vh - 156px);
+}
+
+
+.title-product{
+    font-size: 40px;
+    font-weight: 600;
+    color: #008037;
+    margin-top: 30px;
+    margin-left: 40px;
+
+}
+
+.form-productos{
+    width: 80%;
+    height: 100%;
+    background-color: #c9e265;
+    margin:auto;
+}
+
+
+.form-productos input{
+    width: 40%;
+    height: 50px;
+    border:0;
+    border-bottom: 3px solid #008037 ;
+    border-radius: 3px;
+    background: #ffffff00;
+    font-weight: 700;
+}
